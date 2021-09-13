@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+<audio id="point">
+    <source src="audio/audio_point.wav">
+</audio>
+
+<audio id="endgame">
+    <source src="audio/audio_endgame.wav">
+</audio>
+
+<audio id="background_audio">
+    <source src="audio/audio_background.wav">
+</audio>
+
+<strong> Hướng dẫn chơi: <br> </strong>
+<p> -Bạn phải di chuyển chiếc xe bằng 2 nút "sang trái" hoặc "sang phải" sao cho nó không chạm vào viên gạch và ăn được đồng tiền vàng <br> </p>
+<p> -Nếu xe chạm vào viên gạch thì game sẽ kết thúc <br></p>
+<p> -Nếu xe chạm vào đồng tiền thì sẽ được cộng điểm <br> </p>
+<p> -Lưu ý: Tốc độ của đồng tiền vàng và viên gạch sẽ nhanh hơn nếu bạn đạt được điểm cao hơn đấy<br></p>
+<p> -Chúc bạn chơi game đạt điểm cao nhất.Good Luck!!!</p>
+
+<h3 id="showPoint"></h3>
+<canvas id="my-canvas" width="500" height="500" style="border: 1px solid red"></canvas>
+<script src="js/Road.js"></script>
+<script src="js/Car.js"></script>
+<script src="js/Brick.js"></script>
+<script src="js/Coins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
